@@ -157,4 +157,37 @@
 # # Generate a random floating-point number between a specified range
 # random_float = random.uniform(0.0, 1.0)
 # print("Random float:", random_float)
-
+#
+# for item in 'Python':
+#     print(item)
+# for item in ['Sambit', 'Mosh']:
+#     print(item)
+# for item in [1, 2, 3, 4]:
+#     print(item)          # 1 2 3 4 in separate lines
+# for item in range(10):
+#     print(item)          # 0 to 9
+# for item in range(5, 10):
+#     print(item)          # 5 to 9
+# for item in range(5, 10, 2):
+#     print(item)          # 5 7 9
+#
+# a = 'abcdefgh'
+# print(a[:-3])  # abcde
+# print(a[-3:])  # fgh
+# print(a[2:-1])  # cdefg
+#
+# names = ['John', 'Bob', 'Sambit', 'Mosh', 'Khitish']
+# print(names[0])
+# print(names[2])
+# print(names[-1])
+# print(names[-2])
+# print(names[2:])
+# print(names[2:4])
+# print(names[:])
+# print(names[-1:])
+# print(names[2:-1])
+# print(names[:-1])
+# print(names)
+#
+# names[0] = 'Jon'   # rename 'John'
+# print(names)
