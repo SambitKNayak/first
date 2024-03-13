@@ -25,3 +25,23 @@ quit - to quit
         break
     else:
         print("Sorry! I don't understand that!")
+
+# Welcome to the car game! Enter commands...
+# enter 'help' to see the commands available
+# > help
+#
+# start - to start the car
+# stop - to stop the car
+# quit - to quit
+#
+# > start
+# Car started...
+# > start
+# Car is already started.
+# > stop
+# Car stopped.
+# > stop
+# Car is already stopped!
+# > quit
+#
+# Process finished with exit code 0

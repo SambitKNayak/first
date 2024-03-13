@@ -28,3 +28,5 @@ else:
 #         print("secret number is higher")
 #     else:
 #         print("secret number is lower")
+# else:
+#     print("Sorry! You failed!")

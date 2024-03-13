@@ -1,9 +1,9 @@
-# prices = [10, 20, 30]
-# total = 0
-# for price in prices:
-#     total += price
-# print(f"Total: {total}")
-
+# # prices = [10, 20, 30]
+# # total = 0
+# # for price in prices:
+# #     total += price
+# # print(f"Total: {total}")
+#
 print("""
 WELCOME TO SKN MART
 
@@ -30,7 +30,7 @@ while True:
     # command = f'{command1}'
     # command = str(command1)
     for key in item_price:
-        if command == key:
+        if key == command:
             total += item_price[key]
             print(f"Your current total is : {total}")
     if command == 11:
@@ -38,4 +38,7 @@ while True:
         print("Thank you for shopping with us!")
         break
 
-
+# ----------------------------------------------------------------------
+# command = int(input("enter the pno of items you wanna buy : "))  # 5
+# command1 = f'{command}'  # 5
+# command2 = str(command)  # 5
